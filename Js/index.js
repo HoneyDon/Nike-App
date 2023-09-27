@@ -144,7 +144,7 @@ let CalculateThePrice = () => {
                   <tbody>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Airforce 1</td>
+                      <td>Air Force 1</td>
                       <td>${Quantity1}</td>
                       <td>110</td>
                       <td>${Value1}</td>
