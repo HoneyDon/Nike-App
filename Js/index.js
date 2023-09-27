@@ -17,7 +17,7 @@ let GetButton1value = () => {
       
       let GetInput = $('.one');
       Quantity1++;
-      GetInput.placeholder = `5000 x ${Quantity1}`;
+      GetInput.placeholder = `110 x ${Quantity1}`;
       Value1 += TemporaryValue;
       
   } catch (error) {
@@ -31,7 +31,7 @@ let GetButton2value = () => {
         Value2 += TemporaryValue;
         let GetInput = $('.two');
         Quantity2++;
-        GetInput.placeholder = `10000 x ${Quantity2}`;
+        GetInput.placeholder = `200 x ${Quantity2}`;
     } catch (error) {
         console.log(error.message)
     }
@@ -43,7 +43,7 @@ let GetButton3value = () => {
         Value3 += TemporaryValue;
         let GetInput = $('.three');
         Quantity3++;
-        GetInput.placeholder = `30000 x ${Quantity3}`;
+        GetInput.placeholder = `250 x ${Quantity3}`;
     } catch (error) {
         console.log(error.message)
     }
@@ -55,7 +55,7 @@ let GetButton4value = () => {
         Value4 += TemporaryValue;
         let GetInput = $('.four');
         Quantity4++;
-        GetInput.placeholder = `20000 x ${Quantity4}`;
+        GetInput.placeholder = `100 x ${Quantity4}`;
     } catch (error) {
         console.log(error.message)
     }
