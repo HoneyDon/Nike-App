@@ -146,28 +146,28 @@ let CalculateThePrice = () => {
                       <th scope="row">1</th>
                       <td>Airforce 1</td>
                       <td>${Quantity1}</td>
-                      <td>5000</td>
+                      <td>110</td>
                       <td>${Value1}</td>
                     </tr>
                     <tr>
                       <th scope="row">2</th>
-                      <td>Rolls Royce</td>
+                      <td>Air Jordan</td>
                       <td>${Quantity2}</td>
-                      <td>10000</td>
+                      <td>200</td>
                       <td>${Value2}</td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
-                      <td>BMW</td>
+                      <td>Air VaporMax</td>
                       <td>${Quantity3}</td>
-                      <td>30000</td>
+                      <td>250</td>
                       <td>${Value3}</td>
                     </tr>
                     <tr>
                       <th scope="row">4</th>
-                      <td>Audi</td>
+                      <td>Space Hippie</td>
                       <td>${Quantity4}</td>
-                      <td>20000</td>
+                      <td>100</td>
                       <td>${Value4}</td>
                     </tr>
                   </tbody>
