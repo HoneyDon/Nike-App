@@ -207,5 +207,5 @@ let GoToNewPage = () =>{
     window.open('index.html',"_self");
 }
 let GoToNewPage1 = () =>{
-    window.open('signup-form.html',"_self");
+    window.open('sign-up.html',"_self");
 }
