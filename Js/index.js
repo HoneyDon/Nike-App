@@ -101,7 +101,7 @@ let CalculateThePrice = () => {
               <div class="col-md-12">
                 <div class="text-center">
                   <i class="fab fa-mdb fa-4x ms-0" style="color:#5d9fc5 ;"></i>
-                  <h2 class="pt-0 bg-danger">Muhammad Butt Cars</h2>
+                  <h2 class="pt-0 bg-dark text-white">Nike</h2>
                 </div>
       
               </div>
@@ -110,10 +110,10 @@ let CalculateThePrice = () => {
               <div class="row">
                 <div class="col-xl-8">
                   <ul class="list-unstyled">
-                    <li class="text-muted">To: <span style="color:black ;">Muhammad Butt</span></li>
-                    <li class="text-muted">Pia Road, Lahore</li>
+                    <li class="text-muted">To: <span style="color:black ;">Nike</span></li>
+                    <li class="text-muted">E2, Johar Town</li>
                     <li class="text-muted">Lahore, Pakistan</li>
-                    <li class="text-muted"><i class="fas fa-phone"></i>+92 3074185659</li>
+                    <li class="text-muted"><i class="fas fa-phone"></i>+92 3364632917</li>
                   </ul>
                 </div>
                 <div class="col-xl-4">
@@ -132,7 +132,7 @@ let CalculateThePrice = () => {
       
               <div class="row my-2 mx-1 justify-content-center">
                 <table class="table table-striped table-borderless">
-                  <thead class="bg-danger" class="text-white">
+                  <thead class="bg-dark text-white">
                     <tr>
                       <th scope="col">#</th>
                       <th scope="col">Description</th>
@@ -144,7 +144,7 @@ let CalculateThePrice = () => {
                   <tbody>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Lamborghini</td>
+                      <td>Airforce 1</td>
                       <td>${Quantity1}</td>
                       <td>5000</td>
                       <td>${Value1}</td>
