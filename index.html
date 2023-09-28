@@ -1,8 +1,11 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="./assets/black-car-icons-9.png">
     <link rel="stylesheet" href="./Css/style.css">
     <title>Nike</title>
@@ -15,51 +18,54 @@
         <div class="row mb-5">
             <h1 class="text-center text-light">Get Your Favourite Car</h1>
         </div>
-       <form onsubmit="CalculateThePrice(); return false">
-        <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton1value()">Air Force 1
-                   <br> <span class="text-center value1" data-value="110">$110</span>
-                </button>
-                
+        <form onsubmit="CalculateThePrice(); return false">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton1value()">Air Force 1
+                        <br> <span class="text-center value1" data-value="110">$110</span>
+                    </button>
+
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton2value()">Air Jordan
+                        <br> <span class="text-center value2" data-value="200">$200</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton3value()">Air VaporMax
+                        <br> <span class="text-center value3" data-value="250">$250</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton4value()">Space Hippie
+                        <br> <span class="text-center value4" data-value="100">$100</span>
+                    </button>
+                </div>
             </div>
-            <div class="col">
-                <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton2value()">Air Jordan
-                    <br> <span class="text-center value2" data-value="200">$200</span>
-                </button>
+            <div class="row mt-5">
+                <div class="col">
+                    <input type="text" name="" id="" class="form-control one" placeholder="" readonly="">
+                </div>
+                <div class="col">
+                    <input type="text" name="" id="" class="form-control two" placeholder="" readonly="">
+                </div>
+                <div class="col">
+                    <input type="text" name="" id="" class="form-control three" placeholder="" readonly="">
+                </div>
+                <div class="col">
+                    <input type="text" name="" id="" class="form-control four" placeholder="" readonly="">
+                </div>
             </div>
-            <div class="col">
-                <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton3value()">Air VaporMax
-                    <br> <span class="text-center value3" data-value="250">$250</span>
-                </button>
+            <div class="row mt-5">
+                <button class="w-100 btn btn-outline-dark" type="submit">Calculate</button>
             </div>
-            <div class="col">
-                <button type="button" class="btn btn-outline-dark w-100" onclick="GetButton4value()">Space Hippie
-                    <br> <span class="text-center value4" data-value="100">$100</span>
-                </button>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col">
-                <input type="text" name="" id="" class="form-control one" placeholder="" readonly="">
-            </div>
-            <div class="col">
-                <input type="text" name="" id="" class="form-control two" placeholder="" readonly="">
-            </div>
-            <div class="col">
-                <input type="text" name="" id="" class="form-control three" placeholder="" readonly="">
-            </div>
-            <div class="col">
-                <input type="text" name="" id="" class="form-control four" placeholder="" readonly="">
-            </div>
-        </div>
-        <div class="row mt-5">
-            <button class="w-100 btn btn-outline-dark" type="submit">Calculate</button>
-        </div>
-       </form>
+        </form>
     </div>
     <div class="Result"></div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="./Js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./Js/index.js"></script>
 </body>
+
 </html>
