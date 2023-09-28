@@ -13,74 +13,74 @@ let Quantity4 = 0;
 
 let GetButton1value = () => {
   try {
-      let TemporaryValue = parseInt($('.value1').dataset.value);
-      
-      let GetInput = $('.one');
-      Quantity1++;
-      GetInput.placeholder = `110 x ${Quantity1}`;
-      Value1 += TemporaryValue;
-      
+    let TemporaryValue = parseInt($('.value1').dataset.value);
+
+    let GetInput = $('.one');
+    Quantity1++;
+    GetInput.placeholder = `110 x ${Quantity1}`;
+    Value1 += TemporaryValue;
+
   } catch (error) {
-      console.log(error.message)
+    console.log(error.message)
   }
 }
 
 let GetButton2value = () => {
-    try {
-        let TemporaryValue = parseInt($('.value2').dataset.value);
-        Value2 += TemporaryValue;
-        let GetInput = $('.two');
-        Quantity2++;
-        GetInput.placeholder = `200 x ${Quantity2}`;
-    } catch (error) {
-        console.log(error.message)
-    }
+  try {
+    let TemporaryValue = parseInt($('.value2').dataset.value);
+    Value2 += TemporaryValue;
+    let GetInput = $('.two');
+    Quantity2++;
+    GetInput.placeholder = `200 x ${Quantity2}`;
+  } catch (error) {
+    console.log(error.message)
+  }
 }
 
 let GetButton3value = () => {
-    try {
-        let TemporaryValue = parseInt($('.value3').dataset.value);
-        Value3 += TemporaryValue;
-        let GetInput = $('.three');
-        Quantity3++;
-        GetInput.placeholder = `250 x ${Quantity3}`;
-    } catch (error) {
-        console.log(error.message)
-    }
+  try {
+    let TemporaryValue = parseInt($('.value3').dataset.value);
+    Value3 += TemporaryValue;
+    let GetInput = $('.three');
+    Quantity3++;
+    GetInput.placeholder = `250 x ${Quantity3}`;
+  } catch (error) {
+    console.log(error.message)
+  }
 }
 
 let GetButton4value = () => {
-    try {
-        let TemporaryValue = parseInt($('.value4').dataset.value);
-        Value4 += TemporaryValue;
-        let GetInput = $('.four');
-        Quantity4++;
-        GetInput.placeholder = `100 x ${Quantity4}`;
-    } catch (error) {
-        console.log(error.message)
-    }
+  try {
+    let TemporaryValue = parseInt($('.value4').dataset.value);
+    Value4 += TemporaryValue;
+    let GetInput = $('.four');
+    Quantity4++;
+    GetInput.placeholder = `100 x ${Quantity4}`;
+  } catch (error) {
+    console.log(error.message)
+  }
 }
 
 let CalculateThePrice = () => {
-    try {
-        console.log(Value1);
-        console.log(Value2);
-        console.log(Value3);
-        console.log(Value4);
-        if (Value1 !== 0) {
-            Result = Result + Value1
-        }
-        if (Value2 !== 0) {
-            Result = Result + Value2
-        }
-        if (Value3 !== 0) {
-            Result = Result + Value3
-        }
-        if (Value4 !== 0) {
-            Result = Result + Value4
-        }
-        let ResultDiv = $('.Result');
-        ResultDiv.innerHTML = `
+  try {
+    console.log(Value1);
+    console.log(Value2);
+    console.log(Value3);
+    console.log(Value4);
+    if (Value1 !== 0) {
+      Result = Result + Value1
+    }
+    if (Value2 !== 0) {
+      Result = Result + Value2
+    }
+    if (Value3 !== 0) {
+      Result = Result + Value3
+    }
+    if (Value4 !== 0) {
+      Result = Result + Value4
+    }
+    let ResultDiv = $('.Result');
+    ResultDiv.innerHTML = `
         <div class="card">
         <div class="card-body">
           <div class="container mb-5 mt-3">
@@ -198,14 +198,14 @@ let CalculateThePrice = () => {
       </div>
         `
 
-    } catch (error) {
-        console.log(error.message)
-    }
+  } catch (error) {
+    console.log(error.message)
+  }
 }
 
-let GoToNewPage = () =>{
-    window.open('index.html',"_self");
+let GoToNewPage = () => {
+  window.open('index.html', "_self");
 }
-let GoToNewPage1 = () =>{
-    window.open('sign-up.html',"_self");
+let GoToNewPage1 = () => {
+  window.open('sign-up.html', "_self");
 }
